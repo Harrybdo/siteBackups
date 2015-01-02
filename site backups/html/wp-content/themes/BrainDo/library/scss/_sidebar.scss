@@ -1,0 +1,35 @@
+@media only screen and (min-width: 40.063em) {
+  #sidebar1{
+      border-left: 2px solid $tertiary-color;
+      margin:0 -25px 0 25px;
+      padding: 1rem 0rem 0rem 2rem;
+      
+      h4{
+        font-weight: 500;
+        color: $secondary-color;
+        text-transform: uppercase;
+        
+      }
+      ul{
+        list-style-type: none;
+        line-height: 2rem;
+        
+        li a{
+          font-size:1rem !important;
+        }
+      }
+      
+      h4.widgettitle{
+        margin-bottom: .75rem;
+      }
+      
+      .widget{
+        margin-bottom: 2rem;
+    
+      }
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+
+}

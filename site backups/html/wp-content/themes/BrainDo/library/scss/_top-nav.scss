@@ -1,0 +1,161 @@
+@media only screen and (max-height: 500px) {
+  #navModal{
+    .navModalList{
+      padding: .5rem 0;  
+      
+      li{
+        padding: .5rem 0;
+      }
+    }
+  }
+
+}
+
+@media only screen and (min-height: 501px) {
+ #navModal{
+    .navModalList{
+      padding: 1rem 0;  
+      
+      li{
+        padding: .5rem 0;
+      }
+    }
+  }
+}
+/************* HEADER *************/
+.modal-reveal-button{
+  text-transform: uppercase;
+  border-top: 1px solid $primary-color;
+  border-bottom: 1px solid $primary-color;
+  padding-top: 0 !important; 
+  margin-top:1.5rem;
+  color: $primary-color;
+}
+.top-bar{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 1rem;
+	height:1.3rem;
+	z-index:2;
+	overflow:visible;
+	
+	.title-area{
+		img{
+			float:left !important;
+			max-width:25%;
+			height:auto;
+			margin:-0.5rem 0 0 0;
+		}
+	}
+	
+	a{
+    padding-top: 1rem;	
+	}
+}
+
+#navModal{
+	color: #FFFFFF;
+  padding: 1rem 1rem 0 1rem;
+  
+  .modal-title{
+    border-bottom: 1px solid white;
+  }
+	#navModalLogo{
+		max-width:25%;
+		height:auto;
+		float: left !important;
+		margin-bottom: 1rem;
+		margin-top: -.5rem;
+	}
+  
+	.navModalList{
+    border-bottom: 1px solid white;
+    
+		li{
+			list-style-type:none;
+			text-align:center; 
+      			
+      &.active{
+        a{
+          border-bottom: 2px solid white;
+        }
+      }
+      
+			a{
+				color:#FFFFFF !important;
+				font-size: 1.5rem;
+				font-weight: normal;
+				text-transform:uppercase;
+				font-weight: 400;
+				
+			}
+		}
+	}
+	.modal-social {
+  	margin:1rem 0;
+  	ul {
+    	li {
+        text-align:center;
+        
+        img {
+          width:40px;
+          height:40px;
+        } 	
+    	}
+  	}
+	}
+}
+
+@media only screen and (min-width: 40.063em) {
+	.top-bar {
+		margin-top:2rem;
+		margin-bottom:0rem;
+		height:4.5rem;
+		.title-area{
+			img{
+				float:left !important;
+				max-width:	75%;
+				height:auto;
+			}
+		}
+		
+		ul.right{
+  		font-size: 1rem;
+			height:auto;
+  		
+  		li{
+  			display: inline-block;
+  			margin:0 .5rem;
+  			text-transform: uppercase;
+  			color:#444242;
+  			font-weight:500;
+  			font-size:0.85rem;
+  			
+  			&:hover{
+      		border-bottom: 4px solid #96c93d;
+        }
+  	    
+  	    a, a:hover {
+  	     	color:$tertiary-color;
+  	    }
+  	    
+  	    &.active {
+    	    border-bottom: 4px solid #96c93d;
+  	    }
+  		}
+  	}
+	}
+}
+
+@media only screen and (min-width: 64.063em) {
+  .top-bar{
+    .title-area{
+  		img{
+  			float:left !important;
+  			max-width:	100%;
+  			height:auto;
+  		}
+  	}
+  }
+}
+/************* END OF HEADER *************/

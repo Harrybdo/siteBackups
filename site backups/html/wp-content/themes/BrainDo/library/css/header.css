@@ -1,0 +1,42 @@
+/************* HEADER *************/
+.top-bar {
+  height: 3rem;
+  margin-bottom: 0;
+  overflow: visible;
+}
+.top-bar .title-area {
+  float: left !important;
+}
+.top-bar .title-area img {
+  max-width: 5rem;
+  height: auto;
+}
+.top-bar ul.right {
+  padding-top: 0.25rem;
+  text-align: center;
+}
+.top-bar ul.right li {
+  display: inline-block;
+}
+#navModal {
+  color: #fff;
+  /************* END OF HEADER *************/
+}
+#navModal #navModalLogo {
+  max-width: 5rem;
+  height: auto;
+  float: left !important;
+  margin-bottom: 1rem;
+}
+#navModal .navModalList {
+  margin: 2rem 0rem 2rem 0rem;
+}
+#navModal .navModalList li {
+  list-style-type: none;
+  text-align: center;
+}
+#navModal .navModalList li a {
+  color: #fff !important;
+  font-size: 1.75rem;
+  line-height: 3rem;
+}

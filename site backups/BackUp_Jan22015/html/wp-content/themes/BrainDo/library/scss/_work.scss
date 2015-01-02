@@ -1,0 +1,262 @@
+/************* OUR WORK - HOMEPAGE *************/
+.case-studies {
+  border-top:2px solid $primary-color;
+  
+  .case-study {
+    padding:2rem 0;
+    width:100%;
+    margin: 0 auto;
+    
+    &:not(:last-child){
+      border-bottom:1px solid $primary-color;
+    }
+    
+    .left-content {
+      
+    }
+    
+    .right-content {
+      
+      h3 {
+        text-align:left;
+        font-weight:500;
+        margin:1rem 0;
+        
+        a {
+          color:$primary-color;
+        }
+      }
+      
+      p {
+        margin:0.5rem 0 1rem 0;
+      }
+      
+      h4 {
+        color:$tertiary-color;
+        font-weight:300;
+      }
+      
+      .service-images {
+        display:block;
+        margin:-0.5rem 0 2rem 0;
+        img{
+          margin-bottom: 0.25rem;
+        }
+        
+      }
+       
+      .cta-button{
+        font-size:1rem;
+        border:2px solid #8f8e8e;
+        margin:1rem 0 0 0;
+        padding:2px 50px 2px 10px;
+        text-transform:uppercase;
+        
+        .arrows {
+          margin:-1px 0 0 5px;
+          background-position:$braindo-arrows-right;
+        }
+        
+        &:hover {
+          background-color:$primary-color;
+          border:2px solid $primary-color;
+          color:#fff;
+          font-weight:700;
+          
+          .arrows {
+            background-position:$braindo-arrows-white;
+          }
+        }
+      }
+    }
+  }
+}
+/************* END OF OUR WORK - HOMEPAGE *************/
+
+/************* OUR WORK - SUB PAGES *************/
+.case-study-information {
+  margin:1rem auto 2rem auto;
+  
+  h3 {
+    text-align:left;
+    font-weight:500;
+    margin:0.5rem 0;
+  }
+  
+  .solution {
+    margin:1.5rem 0;
+  }
+  .small-infographic-panel {
+    margin:1rem 0; 
+  }
+}
+
+.results{
+  ul{
+    font-size: 1rem;
+    list-style:none;
+    line-height: 2rem;
+    margin:0 0 0 1rem;
+    
+    li {      
+      display:block;
+      background: none no-repeat left center;
+      background-image:url('../images/arrows.png');
+      background-position:$braindo-arrow-light-green;
+      line-height: 1.25rem;
+      margin: 1rem 0 0 0;
+      
+      .tx {
+        margin: 0 0 0 25px;
+        display: inline-block;
+      }
+    }
+  }
+}
+/************* END OF OUR WORK - SUB PAGES *************/
+@media only screen and (min-width: 40.063em) {
+  /************* OUR WORK - HOMEPAGE *************/
+  
+  .mup-infographic-panel{
+    padding-top: 5rem;
+    padding-left:2rem;
+  }
+  .case-studies {
+    border-top:2px solid $primary-color;
+    
+    .case-study {
+      padding:2rem 0;
+      width:83.33333%;
+      margin: 0 auto;
+      
+      &:not(:last-child){
+        border-bottom:1px solid $primary-color;
+      }
+      
+      .left-content {
+        
+      }
+      
+      .right-content {
+        padding:0 0 0 3rem;
+        h3 {
+          text-align:left;
+          font-weight:500;
+          margin:0;
+          
+          a {
+            color:$primary-color;
+          }
+        }
+        
+        p {
+          margin:0.5rem 0 1rem 0;
+        }
+        
+        h4 {
+          color:$tertiary-color;
+          font-weight:300;
+        }
+        
+        .service-images {
+          display:block;
+          margin:-0.5rem 0 2rem 0;
+        }
+        
+        .cta-button{
+          font-size:1rem;
+          border:2px solid #8f8e8e;
+          margin:1rem 0 0 0;
+          padding:2px 50px 2px 10px;
+          text-transform:uppercase;
+          
+          .arrows {
+            background-position:$braindo-arrows-right;
+          }
+          
+          &:hover {
+            background-color:$primary-color;
+            border:2px solid $primary-color;
+            color:#fff;
+            font-weight:700;
+            
+            .arrows {
+              background-position:$braindo-arrows-white;
+            }
+          }
+        }
+      }
+    }
+  }
+  /************* END OF OUR WORK - HOMEPAGE *************/
+  
+  /************* OUR WORK - SUB PAGES *************/
+  .case-study-information {
+    margin:3rem auto;
+    
+    h3 {
+      text-align:left;
+      font-weight:500;
+      margin:0.5rem 0;
+    }
+  }
+}
+@media only screen and (min-width: 64.063em) {
+   // end of media query
+  /************* OUR WORK - HOMEPAGE *************/
+  .case-studies {
+    border-top:2px solid $primary-color;
+    
+    .case-study {
+      padding:2rem 0;
+      width:83.33333%;
+      margin: 0 auto;
+      
+      &:not(:last-child){
+        border-bottom:1px solid $primary-color;
+      }
+      
+      .left-content {
+        
+      }
+      
+      .right-content {
+        
+        h3 {
+          text-align:left;
+          font-weight:500;
+          
+          a {
+            color:$primary-color;
+          }
+        }
+        
+        p {
+          margin:0.5rem 0 1rem 0;
+        }
+        
+        h4 {
+          color:$tertiary-color;
+          font-weight:300;
+        }
+        
+        .service-images {
+          display:block;
+          margin:-0.5rem 0 2rem 0;
+        }
+      }
+    }
+  }
+  /************* END OF OUR WORK - HOMEPAGE *************/
+  
+  /************* OUR WORK - SUB PAGES *************/
+  .case-study-information {
+    margin:3rem auto;
+    
+    h3 {
+      text-align:left;
+      font-weight:500;
+      margin:0.5rem 0;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+/******************************************************************
+
+Stylesheet: Main Stylesheet
+
+Here's where the magic happens. Here, you'll see we are calling in
+the separate media queries. The base mobile goes outside any query
+and is called at the beginning, after that we call the rest
+of the styles inside media queries.
+******************************************************************/
+
+//
+// IMPORTING STYLES
+//
+
+// import normalize
+@import "../../bower_components/foundation/scss/normalize";
+
+// import mixins
+@import "mixins";
+
+// import foundation overrides
+@import "settings";
+
+// foundation.scss
+@import "../../bower_components/foundation/scss/foundation";
+
+// joints.scss
+@import "joints";
+
+// global.scss
+@import "global";
+
+// top-nav.scss
+@import "top-nav";
+
+// footer.scss
+@import "footer";
+
+// homepage.scss
+@import "homepage";
+
+// expertiseblocks.scss
+@import "expertiseblocks";
+
+// contactcallout.scss
+@import "contactcallout";
+
+// about-us.scss
+@import "about-us";
+
+// work.scss
+@import "work";
+
+// services.scss
+@import "services";
+
+// contact.scss 
+@import "contact";
+
+//use case callout
+@import "use-case";
+
+//blog archive and individual post styles
+@import "blog";
+
+@import "blog-single";
+
+@import "sidebar";

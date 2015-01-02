@@ -1,0 +1,45 @@
+.background {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  opacity:0.15;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=15)";
+  
+  img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+  }
+  video#bgvid {
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -100;
+    -webkit-background-size:cover; 
+    -moz-background-size:cover; 
+    -o-background-size:cover ; 
+    background-size:cover;
+    -ms-behavior: url('../backgroundsize.min.htc');
+  }
+}
+
+.page-wrapper{
+  .homepage-header{
+    margin-bottom:1rem;   
+    
+    h1.page-title {
+      font-weight:700;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.service-content{
+  margin:2rem auto;
+}
+
+.service-description{
+  margin-bottom: 2rem;
+  font-size:1rem;
+}
+
+.service-description-header{
+  text-align: left;
+  font-weight: 300;
+}
+
+.service-list{
+  font-size: 1rem;
+  list-style:none;
+  line-height: 2rem;
+  margin:0 0 0 1rem;
+  
+  li {
+    .arrow {
+      display:inline-block;
+      background: none no-repeat left center;
+      width: 14px;
+      height: 15px;
+      background-image:url('../images/arrows.png');
+      background-position:$braindo-arrow-light-green;
+      margin:0 10px 0 0;    
+    }
+  }
+}
+
+.service-small-image{
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,497 @@
+#s-share-buttons{
+  margin-bottom:1.5rem;
+}
+
+
+.contributor-container{
+  background-color: #f6f6f6;
+  padding:1rem;
+  margin: 0 1rem 0 0;
+  display:inline-block;
+  
+  .contributor-image-wrapper{
+    width:34%;
+    display:inline-block;
+    float:left;
+  }
+  
+  .contributor-bio-wrapper{
+    width:66%;
+    display:inline-block;
+    float:left;
+  }
+  
+  img{
+    max-width: 100%;
+    height:auto;
+    float:left;
+    display:inline-block;
+  }
+  
+  p{
+    margin:0 1rem;
+  }
+  p.contributor-name a {
+    display:inline-block;
+    text-align: left;
+    color: #0097aa;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  p.contributor-title { 
+    display:inline-block;
+    text-align: left;
+    font-size: 1.25rem;
+    margin-bottom: .2rem;
+  }
+  p.contributor-bio {
+    border-top: 1px solid black;
+    padding-top:.2rem;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    display: inline-block;
+    font-size: .8rem;
+    line-height: 1.25rem;
+    margin-left: 1rem;
+    margin-right: 0;
+  }
+}
+
+body.single{
+  .page-wrapper{
+    overflow-x: hidden;
+  }
+  
+  .blog-content {
+    padding:2rem 0 0 0;
+  
+    header.article-header{
+      padding:0 0 1rem 0;
+      
+      img.banner-image {
+        margin:0 0 2rem 0;
+      }
+      
+      h1.entry-title.single-title{
+        text-align:left;
+        font-weight: 500;
+        font-size:2rem;
+        line-height: 2.5rem;
+      }
+      
+      div.post-author-date{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;         
+        font-size:.8rem;
+        font-weight:400;
+        div.byline-author-date{
+          margin: 0 0 .25rem 0;
+          display:inline-block;
+        }
+        div.byline-tags{
+          font-size:.75rem;
+        }
+      }
+    }
+    section.entry-content{
+      
+      img {
+        margin:2rem 0;
+      }
+      
+      h4 {
+        font-size:1.25rem;
+        font-weight:500;
+        margin:0.5rem 0 0 0;
+      }
+      
+      p{
+        margin:0;
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;         
+        font-size: 1rem;
+        font-weight:400;
+        padding:0 0 1rem 0;
+      }
+    }
+  
+    p.tags{
+        margin-top:1.5rem;
+        padding-bottom:2rem;
+        font-weight: 400;
+        font-family:"brandon-grotesque";
+        border-bottom: 2px solid $tertiary-color;
+    }
+    
+    .wp-prev-next{
+      text-align: center;
+      ul{
+        list-style-type:none;
+        display:inline-block;
+        margin-top:1rem;
+        
+        li{
+          display:inline-block;
+          font-family: "brandon-grotesque";
+          font-weight: 300;
+          font-size:.8rem;
+          margin:0 .5rem;
+          
+          a:hover{
+            border-bottom: 1px solid $secondary-color;
+          }
+        }
+        
+        li.main-link{
+          margin: 0 .5rem;
+    
+        }
+      }
+    }
+    .contributor-header{
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 2rem 0 .5rem .5rem;
+    }
+    .contributor-container{
+      margin:0;
+      
+      .contributor-image-wrapper{
+        width:100%;
+      }
+      
+      .contributor-bio-wrapper{
+        width:100%;
+        margin-top:1rem;
+      }
+    }
+    
+    .commentlist{
+      list-style-type: none;
+      display:block;
+      background-color:none;
+      
+      li{
+        padding:0;
+        background:0;
+        border:none;
+        display: inline-block;
+        margin-top: 1rem;
+        width: 100%;
+        
+        article{
+          header.comment-author{
+            cite.fn{
+              
+            }
+            time{
+              
+            }
+            a.comment-edit-link{
+              
+            }
+            
+          }
+          
+          section.comment_content{
+            
+          }
+          
+          a.comment-reply-link{
+            
+          }
+        }
+      }
+    }
+    
+    //Leave a Comment
+    #respond{
+      margin: 0 0 2rem 0;
+      
+      #comment-form-title{
+        text-align: left;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 2rem 0 0 .5rem;
+      }
+      
+      form{
+        background-color: #f6f6f6;
+        padding: 1rem;
+        ul{
+          list-style-type: none;
+          li{
+            font-weight: 300;
+            margin-bottom: .2rem;
+            color:#b8afa5;
+          }
+        }
+        
+        input,textarea{
+           /* css 3 */
+           border-radius:5px;
+           /* mozilla */
+           -moz-border-radius:5px;
+           /* webkit */
+           -webkit-border-radius:5px;
+        }
+        
+        #submit.cta-button{
+          background:transparent;
+          color:#767676;
+          /* css 3 */
+          border-radius:0px;
+          /* mozilla */
+          -moz-border-radius:0px;
+          /* webkit */
+          -webkit-border-radius:0px;
+          font-size: .75rem;
+          margin:0;
+          
+          &:hover {
+            background:$primary-color;
+            border:2px solid $primary-color;
+            color:#fff
+          }
+        }
+      }
+    }
+    #comments{
+      text-align: left;
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin: 2rem 0 0 .5rem;
+    }
+  }
+}
+@media only screen and (min-width: 40.063em) {
+
+  body.single {
+    
+    .blog-content{
+    
+      header.article-header{
+        padding:0 0 1rem 0;
+        
+        h1.entry-title.single-title{
+          text-align:left;
+          font-weight: 500;
+          font-size:2.6rem;
+          line-height: 3rem;
+
+        }
+        
+        div.post-author-date{
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;           
+          font-size:1rem !important;
+          font-weight:400;
+          div.byline-author-date{
+            margin: 0 0 .5rem 0;
+          }
+        }
+      }
+      section.entry-content{
+        
+        h4 {
+          font-size:1.75rem;
+          font-weight:500;
+          margin:.25rem 0;
+        }
+        
+        p{
+          margin:0;
+          font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;           
+          font-size: 1rem;
+          font-weight:400;
+          padding:0 3rem 1rem 0;
+        }
+      }
+      p.tags{
+        margin-top:2.5rem;
+        padding-bottom:2.5rem;
+        font-weight: 400;
+        font-family:"brandon-grotesque";
+        border-bottom: 2px solid $tertiary-color;
+      }
+      .commentlist{
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        list-style-type: none;
+        display:block;
+        background-color:none;
+        color:$tertiary-color;
+        
+        li{
+          padding:0;
+          background:0;
+          border:none;
+          display: inline-block;
+          margin-top: 1rem;
+          width: 100%;
+          
+          article{
+            
+            header.comment-author{
+              font-style: normal;
+              font-size: .75rem;
+              cite.fn{
+                font-size:1.5rem;
+                color:black;
+                font-style:normal;
+              }
+              time{
+              }
+              a.comment-edit-link{
+              }
+              
+            }
+            
+            section.comment_content{
+              color: $tertiary-color;          
+            }
+            
+            a.comment-reply-link{
+              font-size: .75rem;
+              color:#0498aa;
+              
+            }
+          }
+          
+          .children{
+            li{
+              margin-bottom: 0;
+              article{
+                display:inline-block;
+                padding-left:1rem;
+              }
+            }
+            
+            li.depth-2{
+              article{
+                border-left:1px solid black;
+              }
+            }
+            li.depth-3{
+              article{
+                border-left:1px dotted black; 
+              }
+            }
+          }
+        }
+      }
+      //Leave a Comment
+      #respond{
+        margin: 0 0 2rem 0;
+        
+        #comment-form-title{
+          text-align: left;
+          font-size: 1.4rem;
+          font-weight: 400;
+          margin: 2rem 0 0 .5rem;
+        }
+        
+        form{
+          background-color: #f6f6f6;
+          padding: 1rem;
+          ul{
+            list-style-type: none;
+            li{
+              font-weight: 300;
+              margin-bottom: .2rem;
+              color:#b8afa5;
+            }
+          }
+          
+          input,textarea{
+             /* css 3 */
+             border-radius:5px;
+             /* mozilla */
+             -moz-border-radius:5px;
+             /* webkit */
+             -webkit-border-radius:5px;
+          }
+          
+          #submit{
+            /* css 3 */
+            border-radius:0px;
+            /* mozilla */
+            -moz-border-radius:0px;
+            /* webkit */
+            -webkit-border-radius:0px;
+            font-size: 1rem;
+          }
+        }
+      }
+      #comments{
+        text-align: left;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin: 2rem 0 0 .5rem;
+      }
+      .contributor-header{
+        text-align: left;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin: 2rem 0 .5rem .5rem;
+      }
+      .blog-specialty-list-header{
+        font-size:1.75rem;
+        font-weight:500;
+      }
+      ul.blog-specialty-list{
+        list-style-type: none;
+        li{
+          display:inline-block;
+          padding:0 1rem 0 0;
+          text-transform: uppercase;
+          font-weight: 600;
+          
+          a:hover{
+            color:$tertiary-color;
+            border-bottom: 4px solid $secondary-color;
+          }
+        }
+      }
+      .wp-prev-next{
+        text-align: center;
+        ul{
+          list-style-type:none;
+          display:inline-block;
+          margin-top:1.5rem;
+          
+          li{
+            display:inline-block;
+            font-family: "brandon-grotesque";
+            font-weight: 300;
+            font-size:1rem;
+            margin:0 1rem;
+          }
+          
+          li.main-link{
+            margin: 0 1rem;
+      
+          }
+        }
+    }
+      .contributor-header{
+        text-align: left;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin: 2rem 0 .5rem .5rem;
+      }
+      .contributor-container{
+        margin:0;
+        
+        .contributor-image-wrapper{
+          width:34%;
+        }
+        
+        .contributor-bio-wrapper{
+          width:66%;
+          margin-top:0rem;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+
+}

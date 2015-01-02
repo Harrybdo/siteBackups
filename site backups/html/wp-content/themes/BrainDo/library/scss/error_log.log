@@ -1,0 +1,5 @@
+11/18/14 3:23:41: style.scss - parse error: failed at `$double-arrows: background:url("../images/arrows.png") no-repeat right center transparent;` /app/braindo/html/wp-content/themes/BrainDo/library/scss/_settings.scss on line 81
+11/18/14 3:23:51: style.scss - parse error: failed at `$double-arrows: background:url("../images/arrows.png") no-repeat right center transparent;` /app/braindo/html/wp-content/themes/BrainDo/library/scss/_settings.scss on line 81
+11/18/14 3:24:21: style.scss - parse error: failed at `$double-arrows: background:url("../images/arrows.png") no-repeat right center transparent;` /app/braindo/html/wp-content/themes/BrainDo/library/scss/_settings.scss on line 81
+11/18/14 3:24:52: style.scss - parse error: failed at `$double-arrows: background:url("../images/arrows.png") no-repeat right center transparent;` /app/braindo/html/wp-content/themes/BrainDo/library/scss/_settings.scss on line 81
+11/18/14 3:26:21: style.scss - parse error: failed at `$braindo-arrows-right: background-position:0 -16px;` /app/braindo/html/wp-content/themes/BrainDo/library/scss/_settings.scss on line 84

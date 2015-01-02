@@ -1,0 +1,171 @@
+.blog-entries {
+  border-top:2px solid $primary-color;
+  padding:3rem 0;
+  
+  span.blog-page-title {
+    font-size:2.1rem;
+    display:block;
+    text-align:center;
+    color:$primary-color;
+  }
+  
+  .blog-entry {
+    border-bottom:2px solid $primary-color;
+    padding:30px 0;
+    
+    &:first-child {
+      padding:0 0 30px 0;
+    }
+    
+    &:last-child {
+      border-bottom:none !important;
+    }
+    
+    .blog-content {
+      
+      h3 {
+        color:$primary-color;
+        font-size:2rem;
+        line-height: 2.5rem;
+        text-align: left;
+        font-weight:600;
+        margin:0 0 10px 0;
+        
+        a {
+          color:$primary-color;
+        }
+      }
+      
+      .post-author-date {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-size:1rem;
+        font-weight:400;
+        text-rendering: optimizeLegibility;
+      }
+      
+      p {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+        font-size:1rem;
+        font-weight:400;
+        text-rendering: optimizeLegibility;
+        margin:10px 0 20px 0; 
+      }
+      
+      .cta-button {
+        margin:0;
+      }
+      
+      .tags {
+        font-size:0.75rem;
+        margin:1rem 0 0 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  header.article-header{
+    padding:2rem;
+    h1.entry-title.single-title{
+      text-align:left;
+      font-weight: 500;
+      font-size:2rem;
+    }
+    
+    div.post-author-date{
+      span.author{
+        
+      }
+      span.date{
+        
+      }
+    }
+  }
+  
+  section.entry-content{
+    img.wp-post-image{
+      
+    }
+    
+    p{
+      
+    }
+  }
+  
+  //h3 comment header
+  #comments{
+    
+  }
+  
+  ol.commentlist{
+    li{
+      article{
+        header.comment-author{
+          cite.fn{
+            
+          }
+          time{
+            
+          }
+          a.comment-edit-link{
+            
+          }
+          
+        }
+        
+        section.comment_content{
+          
+        }
+        
+        a.comment-reply-link{
+          
+        }
+      }
+    }
+  }
+  
+  //Leave a Comment
+  #respond{
+    #comment-form-title{
+      
+    }
+    
+    form{
+      #comment{
+        
+      }
+      
+      #submit{
+        
+      }
+    }
+  }
+  
+  #sidebar1{
+    border-left: 2px solid $primary-color;
+    margin:0 -25px 0 25px;
+    
+    #text-3 {
+      ul {
+        li {
+          margin:0.5rem 0;
+          img {
+            width:80%;
+          }
+        }
+      }
+    }
+    
+    .widget_tag_cloud{
+      
+    }
+    
+    .widget_archive{
+      
+    }
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+
+}

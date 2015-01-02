@@ -1,0 +1,379 @@
+/************* WHO WE ARE *************/
+
+.employee-slider-small{
+  h3.bio-name{
+    margin-top:.5rem;
+    margin-bottom: .1rem;
+  }
+  h4.bio-title{
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  p{
+    padding: 0 .5rem;
+  }
+
+}
+
+.us-description{
+	border-bottom:2px solid #3badb8;
+	padding:1rem 0;
+	
+	p{
+		margin:0 0 1rem 0;
+	}
+	
+	h2, h3{
+		text-align: left;
+	}
+}
+
+.meet-the-team, .brain-dogs {
+  padding:1rem 0;
+  
+  h3 {
+    color:$tertiary-color;
+    font-weight:300;
+    text-transform: uppercase;
+  }
+}
+
+.employee-block {
+	display:inline-block;
+	position: relative;
+	margin:0 auto;
+	height:auto;
+	max-width:50%;
+	text-align: center;
+	
+	span.employee-block-title{
+  	color:#fff;
+		z-index: 9999;
+		position:absolute;
+		left:0rem;
+		top:50%;
+		width:100%;
+		font-size:1.25rem;
+		font-weight: 400;
+	}
+	span.employee-block-text {
+  	color:#fff;
+		z-index: 9999;
+		position:absolute;
+		left:0.6rem;
+		top:70%;
+		width:90%;
+		line-height:1.1rem;
+	}
+}
+.dog-block{
+	display:inline-block;
+	position: relative;
+	margin:0 auto;
+	height:auto;
+	max-width:50%;
+	text-align: center;
+	
+	span.dog-block-title{
+  	color:#fff;
+		z-index: 9999;
+		position:absolute;
+		left:0rem;
+		top:30%;
+		width:100%;
+	}
+	span.dog-block-text {
+  	color:#fff;
+		z-index: 9999;
+		position:absolute;
+		left:1.2rem;
+		top:50%;
+		width:80%;
+		line-height:1rem;
+	}
+	
+}
+
+
+.employee-slider, .employee-slider-small{
+	padding:none;
+	display:none;
+	max-width:90%;
+	height:100%;
+	margin-bottom:.5rem;
+}
+
+div.hover-state{
+  		display:none;
+  }
+
+
+@media only screen and (min-width: 30rem) {
+  .employee-info{
+    p {
+      line-height:1rem;
+      font-size:0.75rem;
+    }
+  }
+  
+  //ben
+  #employee-slider-0 .employee-info{
+      bottom: 30%;
+      right: 44%;
+      width: 50%;
+       
+  }
+  //bill
+  #employee-slider-1 .employee-info{
+      bottom:35%;
+      right:4%;
+      width:50%; 
+  }
+  //brian c
+  #employee-slider-2 .employee-info{
+      bottom:24%;
+      right:4%;
+      width:48%; 
+  }
+  //brian sc
+  #employee-slider-3 .employee-info{
+      bottom:26%;
+      right:0%;
+      width:48%; 
+  }
+  //glenn
+  #employee-slider-4 .employee-info{
+      bottom:36%;
+      right:45%;
+      width:50%; 
+  }
+  
+  //harris
+  #employee-slider-5 .employee-info{
+      bottom: 25%;
+      right: 54%;
+      width: 42%; 
+  }
+  //harrison
+  #employee-slider-6 .employee-info{
+      bottom:31%;
+      right:52%;
+      width:45%; 
+  }
+  //jenny
+  #employee-slider-7 .employee-info{
+      bottom:25%;
+      right:45%;
+      width:50%; 
+  }
+  //linda
+  #employee-slider-8 .employee-info{
+      bottom:35%;
+      right:58%;
+      width:38%; 
+  }
+  //mike
+  #employee-slider-9 .employee-info{
+      bottom:30%;
+      right:52%;
+      width:43%; 
+  }
+  
+  //Rodney
+  #employee-slider-10 .employee-info{
+      bottom:20%;
+      right:3%;
+      width:42%; 
+  }
+  //scott
+  #employee-slider-11 .employee-info{
+    bottom:20%;
+    right:54%;
+    width:39%; 
+  }  
+}
+
+
+@media only screen and (min-width: 40.063em) {
+  
+  
+  .employee-info{
+    position:absolute;
+    display: inline-block;
+    text-align: left;
+    
+    h3.bio-name{
+      color:#FFF;
+      font-weight: 500;
+      display: inline-block;
+      border-bottom: 1px solid $primary-color;
+      padding-bottom: .3rem;
+      margin-bottom: .5rem;
+    }  
+    
+    h4.bio-title{
+      color:#FFF;
+      margin-bottom: .75rem !important;
+    }
+    
+    p{
+      color:#FFF;
+      line-height:1.25rem;
+      font-size: .9rem;
+    }
+    ul.services-list{
+      margin:1rem 0 0 0;
+      list-style-type: none;
+      li{
+        display:inline-block;
+        padding:0 1rem 0 0;
+        a{
+          color:#ffffff;
+          font-weight: normal;
+          font-size: 1.2rem;
+          border-bottom: 2px solid #ffffff;
+        }
+      }
+    }
+  }
+  
+}
+
+@media only screen and (min-width: 50em) {
+  
+  //ben
+  #employee-slider-0 .employee-info{
+      bottom: 30%;
+      right: 44%;
+      width: 38%; 
+  }
+  //bill
+  #employee-slider-1 .employee-info{
+      bottom:37%;
+      right:4%;
+      width:36%; 
+  }
+  //brian c
+  #employee-slider-2 .employee-info{
+      bottom:24%;
+      right:4%;
+      width:37%; 
+  }
+  //brian sc
+  #employee-slider-3 .employee-info{
+      bottom:31%;
+      right:9%;
+      width:35%; 
+  }
+  //glenn
+  #employee-slider-4 .employee-info{
+      bottom:36%;
+      right:52%;
+      width:40%; 
+  }
+  
+  //harris
+  #employee-slider-5 .employee-info{
+      bottom: 33%;
+      right: 58%;
+      width: 34%; 
+  }
+  //harrison
+  #employee-slider-6 .employee-info{
+      bottom:31%;
+      right:60%;
+      width:34%; 
+  }
+  //jenny
+  #employee-slider-7 .employee-info{
+      bottom:30%;
+      right:53%;
+      width:36%; 
+  }
+  //linda
+  #employee-slider-8 .employee-info{
+      bottom:48%;
+      right:52%;
+      width:35%; 
+  }
+  //mike
+  #employee-slider-9 .employee-info{
+      bottom:36%;
+      right:52%;
+      width:31%; 
+  }
+  
+  //Rodney
+  #employee-slider-10 .employee-info{
+      bottom:38%;
+      right:3%;
+      width:39%; 
+  }
+  //scott
+  #employee-slider-11 .employee-info{
+    bottom:22%;
+    right:54%;
+    width:32%; 
+  }  
+  
+  .meet-the-team, .brain-dogs {
+    padding:2rem 0;
+    
+    h3 {
+      color:$tertiary-color;
+      font-weight:300;
+    }
+  }
+  
+  .employee-slider{
+  	display:none;
+  	max-width: 100%;
+  	height: 100%;
+  	text-align: center;
+  	
+  	img{
+      margin-bottom: .25rem !important;
+  	}
+  }
+  
+  .employee-block, .dog-block{
+  	display:inline-block;
+  	position: relative;
+  	margin:0 auto;
+  	height:auto;
+  	max-width:100%;
+  	text-align: center;
+	
+  	div.hover-state{
+  		display:none;
+  	}
+  	
+  	&:hover{
+  		position:relative;
+  		
+  		div.nohover-state{
+    		  display:none;
+  		    position: absolute;
+  		    top: 0;
+  		    left: 0;
+  		    bottom: 0;
+  		    right: 0;
+  		    z-index: 0;
+  		    overflow: hidden;
+  		    opacity: .2;
+  		}
+  		div.hover-state{
+  			p{
+  				display: inline-block;
+  				padding-top:1rem;
+  			}
+  			z-index: 9999;
+  			max-width: 100%;
+  			height: auto;
+  			display:inline-block;
+  		}
+  	}
+  }  
+}
+  
+/************* END OF WHO WE ARE *************/

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation</title>
+    <link rel="stylesheet" href="css/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
+  </head>
+
+  <body>
+
+    <div class="row" id="siteRow">
+      <div class="small-12 medium-6 large-6 columns" id="leftColumn">
+        <img src="/images/braindologo.png" />
+        <br />
+        <ul class="no-bullet" id="leftUl">
+          <li class="first">INTERACTIVE CONSULTING</li>
+          <li>WEB ANALYTICS ENGINEERING</li>
+          <li>SEARCH ENGINE OPTIMIZATION</li>
+          <li>DISPLAY MEDIA &amp; SEM</li>
+          <li>DIGITAL/OFFLINE INTEGRATION</li>
+          <li>SITE OPTIMIZATION (CRO)</li>
+          <li>SOCIAL MEDIA MARKETING</li>
+          <li>ECOMMERCE STRATEGY</li>
+          <li>MEDIA MIX PLANNING</li>
+          <li>WEB/MOBILE APP STRATEGY</li>
+        </ul>
+      </div>
+      <div class="hidden-for-small-only">
+        <div class="small-12 medium-6 large-6 columns" id="rightColumn">
+          <form method="post" action="mailform.php">
+            <input id="contact-form-name" type="text" name="contactname" title="Your Name" value="Your Name">
+            <input id="contact-form-email" type="text" name="email" title="Your Email Address" value="Your Email Address">
+            <textarea rows="8" cols="50" id="contact-form-message" name="message" title="Your Message">Your Message</textarea>
+            <input type="submit" value="LETS TALK">
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+
+</html>
